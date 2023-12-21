@@ -39,10 +39,6 @@ const ServicesDropdown = (props) => {
       <li><Link to='/DataAnalytics' className="dm-link" onClick={handleCloseLinks}>Data Analytics</Link></li>
       <li><Link to='/ItTraining' className="dm-link" onClick={handleCloseLinks}>IT Training</Link></li>
         
-        
-        
-        
-        
       </ul>
     </div>
   );

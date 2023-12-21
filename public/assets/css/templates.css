@@ -532,6 +532,7 @@
 /* has-dropdown-menu */
 .theme-navbar .nav-bottom .links .link.has-dropdown-menu {
   position: relative;
+  width: auto;
 }
 .theme-navbar .nav-bottom .links .link.has-dropdown-menu > a::after {
   position: relative;

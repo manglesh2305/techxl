@@ -5,6 +5,8 @@ import ServicesDropdown from "../../../Components/ServicesDropdown";
 import SideBox from "../../../Components/SideBox";
 import LanguageSelector from "./LanguageSelector";
 import NoticeBar from "./NoticeBar";
+import ItInfrManagmentDropdown from "../../../Components/ITInfrManagmentDropdown";
+import ItManagmentDropdown from "../../../Components/ItManagmentDropdown";
 
 const Navbar = (props) => {
     var history = useHistory();
@@ -165,7 +167,10 @@ const Navbar = (props) => {
                                 <Link to="/about" onClick={handleCloseLinks}>About Us</Link>
                             </div>
                             {/* <!-- link --> */}
+                            {/* <ItManagmentDropdown dataAlert={parentAlert}/>
+                            <ItInfrManagmentDropdown dataAlert={parentAlert}/> */}
                             <ServicesDropdown dataAlert={parentAlert}/>
+                            
                             {/* <!-- link --> */}
                             {/* <div className={`link ${activeFilter === 'shared-hosting' ? 'active' : ''}`} onClick={() => handleMenuClick('shared-hosting')}>
                                 <Link to="/shared-hosting">Windows Hosting</Link>

@@ -25,10 +25,10 @@ import './styles/DataAnalytics.css';
 import Aos from "aos";
 import 'aos/dist/aos.css';
 export const DataAnalytics = (props) => {
-    
-    useEffect(()=>{
-        Aos.init({duration:2000});
-    },[]);
+
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, []);
 
     const baseUrl = location.href.includes("trainingncr.info")
         ? `http://trainingncr.info/techx/assets/images`
@@ -48,7 +48,7 @@ export const DataAnalytics = (props) => {
                     </div>
                     <div className="col-lg-6">
                         <div className="aboutus-text-section">
-                            <h2 className="AI-text-title-one white-theme-text-AI color-about"   data-aos='fade-up'>
+                            <h2 className="AI-text-title-one white-theme-text-AI color-about" data-aos='fade-up'>
                                 Unlocking Potential: Empowering Success <br />
                                 Through Cutting-Edge IT Training at TECHX
                             </h2>
@@ -199,10 +199,6 @@ export const DataAnalytics = (props) => {
                 </div>
             </div>
 
-
-
-
-
             <div className="container-fluid webhosting-all-section cloud-banner-section">
                 <div className="row cloud-row-reverse">
                     <div className="col-lg-6">
@@ -229,6 +225,34 @@ export const DataAnalytics = (props) => {
                     </div>
                 </div>
             </div>
+
+            <div className="container-fluid pt-2 webhosting-all-section cloud-banner-section">
+                <div className="row ">
+                    <div className="col-lg-6">
+                        <div className="image-aboutus-section">
+                            <img
+                                src={baseUrl + "/theme/cloud-header.gif"}
+                                className=" img-fluid"
+                                alt="Image"
+                            />
+                        </div>
+                    </div>
+                    <div className="col-lg-6">
+                        <div className="aboutus-text-section">
+                            <h1 className="sec-title-2 mt-1 drop" data-aos='fade-up'>
+                                Industry-Relevant Projects:
+                            </h1>
+                            <br />
+                            <p className="sec-para-1 mb-1 drop" data-aos='fade-up'>
+                                Bridge the gap between theory and application through industry-relevant projects. Our
+                                training programs emphasize practicality, ensuring you are well-prepared for the challenges
+                                of the professional realm.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <div className="card-mobileApp-section">
                 <div className="row no-gutters">
