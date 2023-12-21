@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Joan&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Oxanium:wght@200;300;400;500&family=Poppins:wght@400;700&display=swap');
+
+.container-fluid{
+    font-family: 'Oxanium',display;
+    font-weight: 400;
+    font-size: 17px;
+    font-size: 1rem;
+    
+}
+.drop{
+     animation: fall 2s linear forwards; 
+}
+@keyframes fall {
+    0%{
+        transform: translateY(-200px) scaleY(0.9);
+    }
+    100%{
+        transform: translateY(0px) scaleY(0.9);
+    }
+    
+}
